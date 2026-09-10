@@ -1,0 +1,120 @@
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Page */
+
+body {
+    background: #f4f7fb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+/* Form container */
+
+.container {
+    width: 420px;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+
+/* Heading */
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+
+/* Labels */
+
+label {
+    font-weight: bold;
+    color: #555;
+    display: block;
+    margin-top: 15px;
+}
+
+
+/* Inputs */
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+
+/* Input focus */
+
+input:focus,
+select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+
+/* Button */
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 6px;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+
+button:hover {
+    background: #0056b3;
+}
+
+
+/* Success page */
+
+.success {
+    text-align: center;
+}
+
+
+.success p {
+    margin: 12px 0;
+    font-size: 16px;
+}
+
+
+.success a {
+    text-decoration: none;
+    color: white;
+    background: #28a745;
+    padding: 10px 15px;
+    border-radius: 6px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+
+.success a:hover {
+    background: #218838;
+}
